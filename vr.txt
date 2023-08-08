@@ -1,1 +1,1 @@
-vless://5d23da48-146e-498b-94f4-f6ea61621675@104.18.1.196:443?security=tls&encryption=none&host=vless-rs-us01.globalssh.xyz&type=ws&path=/vless-ws&sni=vless-rs-us01.globalssh.xyz#silver-globalssh_vless_ws_tls
+vless://5d23da48-146e-498b-94f4-f6ea61621675@104.18.1.196:443?security=tls&encryption=none&headerType=none&type=ws&path=%252Fvless-ws&sni=vless-rs-us01.globalssh.xyz&host=vless-rs-us01.globalssh.xyz#Git Silver
