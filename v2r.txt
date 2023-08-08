@@ -16,7 +16,6 @@ profile:
 dns:
   enable: true
   ipv6: false
-  enhanced-mode: redir-host
   listen: 0.0.0.0:7874
   nameserver:
     - 8.8.8.8
