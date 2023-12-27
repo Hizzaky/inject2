@@ -1,1 +1,1 @@
-vless://9d569a99-0de8-4bdd-82cd-cf771d61288f@104.18.225.52:80/?security=none&encryption=none&headerType=none&type=ws&path=%2fvless&host=xray.josvpn.me#vpnstunnel-ppxxccpc
+vless://27070344-ef5f-4b56-a3cb-3ec68d76afe5@104.18.225.52:80?security=none&encryption=none&headerType=none&type=ws&path=%252Fvless&flow=none&host=xray.josvpn.me#Vpns
