@@ -1,1 +1,3 @@
 vless://cd24b1d0-0708-411f-90a9-f9da825f8e49@104.18.225.52:80?security=none&encryption=none&headerType=&type=ws&path=vless-ws&sni=vless-ctb-sg01.globalssh.xyz&host=vless-ctb-sg01.globalssh.xyz#GLOBAL
+
+vless://aba29e93-43fe-40cb-bdfa-ba818570a39c@104.18.225.52:80?security=none&encryption=none&headerType=none&type=ws&path=%252Fvless-ws&flow=none&host=vless-uas-id01.globalssh.xyz#GLOBAL ID
