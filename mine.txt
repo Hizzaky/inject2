@@ -2,4 +2,4 @@ vless://0550bd20-4cbb-4864-87b0-915a935fa339@104.18.225.52:80?path=%2F%3Fed%3D20
 
 vless://4b493d28-90fc-4293-ad36-efc21c5c50b4@104.18.225.52:80?security=none&encryption=none&headerType=none&type=ws&path=%252F%253Fed%253D2048&flow=none&host=sg.anukvpn.biz.id#SG
 
-vless://98ccc0e8-93b6-4813-ac20-fe34807fe7c0@104.18.225.52:80?security=none&encryption=none&headerType=none&type=ws&path=%252Fvless&flow=none&host=xray.josvpn.me#VPNs 
+vless://f1e1f7a8-4ab8-494c-860c-1ec6684e9af5@104.18.225.52:80?security=none&encryption=none&headerType=none&type=ws&path=%252Fvless&flow=none&host=xray.josvpn.me#VPNs 
