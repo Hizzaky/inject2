@@ -1,1 +1,2 @@
-vless://a90b4b05-9fbc-4ec1-b46a-ff5b905f558c@104.18.225.52:80?security=none&encryption=none&headerType=none&type=ws&path=%252Fvless&flow=none&host=xray.josvpn.me#VPN
+vless://68b705e6-ec37-4083-857e-3fb5b052996a@104.18.225.52:80?security=none&encryption=none&headerType=none&type=ws&path=%252Fvless&flow=none&host=xray.josvpn.me#VPN 
+
