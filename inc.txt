@@ -1,3 +1,3 @@
-vless://514b9ba9-6bbd-46cb-8912-96c21e766768@104.18.225.52:80?security=none&encryption=none&headerType=none&type=ws&path=%252Fvless&flow=none&host=xdo.josvpn.me#VPN 
+vless://f39c6bc9-ead1-41ad-8d11-9cc8f44a80da@104.18.225.52:80?security=none&encryption=none&headerType=none&type=ws&path=%252Fvless&flow=none&host=xdo.josvpn.me#VPN 
 
-vless://12264b3e-59eb-4e75-a601-c72b5e061c0a@104.18.225.52:80?security=none&encryption=none&headerType=none&type=ws&path=%252Fvless&flow=none&host=xdo.josvpn.me#PC 
+vless://47a6f324-1ec1-4fc6-bb60-528a3708a455@104.18.225.52:80?security=none&encryption=none&headerType=none&type=ws&path=%252Fvless&flow=none&host=xdo.josvpn.me#PC 
