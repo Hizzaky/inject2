@@ -4,4 +4,4 @@ vless://4b493d28-90fc-4293-ad36-efc21c5c50b4@104.18.225.52:80?security=none&encr
 
 vless://d6d8126b-6ae1-4a71-8e78-8a7c9dedbe31@104.18.225.52:80?security=none&encryption=none&headerType=none&type=ws&path=%252Fvless&flow=none&host=xdo.josvpn.me#VPNs DO
 
-vless://c5cb9146-2f6b-427e-9ee5-446fade1f0c7@xray.josvpn.me:80?path=%2Fvless&security=none&encryption=none&host=null&type=ws&sni=null#VPNs Xray
+vless://c5cb9146-2f6b-427e-9ee5-446fade1f0c7@104.18.225.52:80?security=none&encryption=none&headerType=none&type=ws&path=%252Fvless&flow=none&host=xray.josvpn.me#VPNs Xray
