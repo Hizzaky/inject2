@@ -2,6 +2,6 @@ vless://6b81fc0d-6b43-458f-91a2-627f457efee2@104.18.225.52:80?path=%2F%3Fed%3D20
 
 vless://0550bd20-4cbb-4864-87b0-915a935fa339@104.18.225.52:80?path=%2F%3Fed%3D2048&security=none&encryption=none&host=404.anukvpn.biz.id&type=ws#404
 
-vless://d6d8126b-6ae1-4a71-8e78-8a7c9dedbe31@104.18.225.52:80?security=none&encryption=none&headerType=none&type=ws&path=%252Fvless&flow=none&host=xdo.josvpn.me#VPNs DO
+vless://d6d8126b-6ae1-4a71-8e78-8a7c9dedbe31@104.18.225.52:80?path=%2Fvless&security=none&encryption=none&host=xdo.josvpn.me&type=ws#VPNs+DO
 
-vless://c5cb9146-2f6b-427e-9ee5-446fade1f0c7@104.18.225.52:80?security=none&encryption=none&headerType=none&type=ws&path=%252Fvless&flow=none&host=xray.josvpn.me#VPNs Xray
+vless://c5cb9146-2f6b-427e-9ee5-446fade1f0c7@104.18.225.52:80?path=%2Fvless&security=none&encryption=none&host=xray.josvpn.me&type=ws#VPNs+Xray
