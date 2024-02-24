@@ -1,3 +1,3 @@
 vless://0550bd20-4cbb-4864-87b0-915a935fa339@104.18.225.52:80?path=%2F%3Fed%3D2048&security=none&encryption=none&host=404.anukvpn.biz.id&type=ws#VPN
 
-vless://262b23a7-16a9-4e24-a8a8-cb9ea104cf94@104.18.225.52:80?path=%2Fvless&security=none&encryption=none&host=xray.josvpn.me&type=ws#VPNs
+vless://866ddbc6-0fc9-4a19-a4c8-6f31a058ba8b@104.18.225.52:80?path=%2Fvless&security=none&encryption=none&host=xray.josvpn.me&type=ws#VPNs
