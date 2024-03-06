@@ -1,4 +1,4 @@
-vless://fc021720-dc0e-11ee-b234-205c6d5f5d7@104.18.225.52:80?path=%2Fvlws&security=none&encryption=none&host=asia1.fufo.org&type=ws#fastSSH
+vless://fc021720-dc0e-11ee-b234-205c6d5f5d7@104.18.225.52:80?path=%2Fvlws&security=none&encryption=none&host=america1.fufo.org&type=ws#fastSSH
 
 vless://6b81fc0d-6b43-458f-91a2-627f457efee2@104.18.225.52:80?path=%2F%3Fed%3D2048&security=none&encryption=none&host=one.blackcloudvpn.biz.id&type=ws#One
 
