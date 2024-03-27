@@ -1,9 +1,9 @@
-vless://575b0c50-e0b4-11ee-b636-205c6d5f5d78@104.18.225.52:80?path=%2Fvlws&security=none&encryption=none&host=asia1.fufo.org&type=ws#fastSSH
+vless://575b0c50-e0b4-11ee-b636-205c6d5f5d78@172.67.5.14:80?path=%2Fvlws&security=none&encryption=none&host=asia1.fufo.org&type=ws#fastSSH
 
-vless://6b81fc0d-6b43-458f-91a2-627f457efee2@104.18.225.52:80?path=%2F%3Fed%3D2048&security=none&encryption=none&host=one.blackcloudvpn.biz.id&type=ws#One
+vless://6b81fc0d-6b43-458f-91a2-627f457efee2@172.67.5.14:80?path=%2F%3Fed%3D2048&security=none&encryption=none&host=one.blackcloudvpn.biz.id&type=ws#One
 
-vless://0550bd20-4cbb-4864-87b0-915a935fa339@104.18.225.52:80?path=%2F%3Fed%3D2048&security=none&encryption=none&host=404.anukvpn.biz.id&type=ws#404
+vless://0550bd20-4cbb-4864-87b0-915a935fa339@172.67.5.14:80?path=%2F%3Fed%3D2048&security=none&encryption=none&host=404.anukvpn.biz.id&type=ws#404
 
-vless://d6d8126b-6ae1-4a71-8e78-8a7c9dedbe31@104.18.225.52:80?path=%2Fvless&security=none&encryption=none&host=xdo.josvpn.me&type=ws#VPNs+DO
+vless://d6d8126b-6ae1-4a71-8e78-8a7c9dedbe31@172.67.5.14:80?path=%2Fvless&security=none&encryption=none&host=xdo.josvpn.me&type=ws#VPNs+DO
 
-vless://99bf978a-1b8c-4b03-94e7-037c6c48dbd7@104.18.225.52:80?path=%2Fvless&security=none&encryption=none&host=xray.josvpn.me&type=ws#VPNs+Xray
+vless://99bf978a-1b8c-4b03-94e7-037c6c48dbd7@172.67.5.14:80?path=%2Fvless&security=none&encryption=none&host=xray.josvpn.me&type=ws#VPNs+Xray
