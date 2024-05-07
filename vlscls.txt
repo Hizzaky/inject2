@@ -37,6 +37,7 @@ experimental:
   interface-name: en0
 
 proxies:
+  - {name: VLS SG, server: quiz.int.vidio.com, port: 80, type: vmess, uuid: 4d8cfe54-062f-4a98-8c65-844337b783c7, sni: vless-sg01.globalssh.xyz, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /vmess-ws, headers: {Host: vless-sg01.globalssh.xyz}}}
 
 proxy-groups:
   - name: sshkit-generator
@@ -45,6 +46,7 @@ proxy-groups:
     interval: 300
     strategy: consistent-hashing
     proxies:
+      - VMS SG
 
 rules:
  - MATCH,sshkit-generator
