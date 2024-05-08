@@ -37,6 +37,7 @@ experimental:
   interface-name: en0
 
 proxies:
+  - {name: One-globalssh_vmess_ws_tls, server: vmess-sg01.globalssh.xyz, port: 443, type: vmess, uuid: ef478f66-6d2c-4db6-8a80-50681254acc6, sni: vmess-sg01.globalssh.xyz, alterId: 0, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /vmess-ws, headers: {Host: vmess-sg01.globalssh.xyz}}}
 
 proxy-groups:
   - name: sshkit-generator
@@ -45,6 +46,7 @@ proxy-groups:
     interval: 300
     strategy: consistent-hashing
     proxies:
+      - One-globalssh_vmess_ws_tls
 
 rules:
  - MATCH,sshkit-generator
