@@ -16,7 +16,7 @@ profile:
 dns:
   enable: true
   ipv6: false
-  enhanced-mode: fake-ip
+  enhanced-mode: redir-host
   listen: 127.0.0.1:7874
   nameserver:
     - 1.1.1.1
