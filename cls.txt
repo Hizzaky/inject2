@@ -12,7 +12,7 @@ ipv6: false
 dns:
   enable: true
   ipv6: false
-  enhanced-mode: redir-host
+  enhanced-mode: fake-ip
   listen: 0.0.0.0:7894
   fallback-filter:
     geoip: false
@@ -37,7 +37,7 @@ experimental:
   interface-name: en0
 
 proxies:
-  - {name: VMS SG, server: quiz.int.vidio.com, port: 80, type: vmess, uuid: 6b81fc0d-6b43-458f-91a2-627f457efee2, sni: one.blackcloudvpn.biz.id, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /?ed=2048, headers: {Host: one.blackcloudvpn.biz.id}}}
+  - {name: VMS SG, server: quiz.int.vidio.com, port: 80, type: vless, uuid: 6b81fc0d-6b43-458f-91a2-627f457efee2, sni: one.blackcloudvpn.biz.id, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /?ed=2048, headers: {Host: one.blackcloudvpn.biz.id}}}
 
 proxy-groups:
   - name: sshkit-generator
