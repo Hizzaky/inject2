@@ -1,11 +1,10 @@
 ####################################
 # 创建者：v2rayse.com
-# 客户端：Clash.Meta
-# 创建时间：13-05-2024 15:35:21
+# 客户端：Clash
+# 创建时间：13-05-2024 15:38:13
 # 使用模版：V2RaySE 默认模版
 # 节点数量：1
 ####################################
-# !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
 allow-lan: true
 log-level: info
@@ -86,46 +85,46 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"One","type":"vless","server":"quiz.int.vidio.com","port":80,"uuid":"6b81fc0d-6b43-458f-91a2-627f457efee2","tls":false,"servername":"one.blackcloudvpn.biz.id","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"one.blackcloudvpn.biz.id"}}}
+  - {"name":"One-globalssh_vmess_ws_tls","type":"vmess","server":"vmess-sg01.globalssh.xyz","port":443,"cipher":"auto","uuid":"ef478f66-6d2c-4db6-8a80-50681254acc6","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"vmess-sg01.globalssh.xyz","network":"ws","ws-opts":{"path":"/vmess-ws","headers":{"host":"vmess-sg01.globalssh.xyz"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - One
+      - One-globalssh_vmess_ws_tls
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - One
+      - One-globalssh_vmess_ws_tls
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - One
+      - One-globalssh_vmess_ws_tls
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - One
+      - One-globalssh_vmess_ws_tls
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - One
+      - One-globalssh_vmess_ws_tls
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - One
+      - One-globalssh_vmess_ws_tls
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -148,7 +147,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - One
+      - One-globalssh_vmess_ws_tls
 
 rules:
 # 本地/局域网地址
