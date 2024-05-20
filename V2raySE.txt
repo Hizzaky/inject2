@@ -1,0 +1,54 @@
+
+port: 7890
+socks-port: 7891
+redir-port: 7892
+mixed-port: 7893
+mode: rule
+log-level: silent
+allow-lan: true
+external-controller: 0.0.0.0:9090
+bind-address: "*"
+ipv6: false
+dns:
+  enable: true
+  ipv6: false
+  enhanced-mode: redir-host
+  listen: 0.0.0.0:7894
+  fallback-filter:
+    geoip: false
+    ipcidr:
+    - 240.0.0.0/4
+  nameserver:
+    - https://puredns.org/dns-query
+    - tls://puredns.org:853
+  fallback:
+    - tcp://108.137.44.39
+    - tcp://108.137.44.9
+    - 108.137.44.39
+    - 108.137.44.9
+tun:
+  enable: true
+  stack: system 
+  macOS-auto-route: true
+  macOS-auto-detect-interface: true
+  dns-hijack:
+    - tcp://108.137.44.39:53
+experimental:
+  interface-name: en0
+
+proxies:
+  - {name: 🇺🇸_US_美国, server: quiz.int.vidio.com, port: 8880, type: vmess, uuid: c74c2fd1-7e5b-4c20-be9f-f3c3b7fd6248, sni: us6gzxQRrE4.fzbqfrse.xyz, alterId: 0, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /video/bYdJ7Vc2We, headers: {Host: us6gzxQRrE4.fzbqfrse.xyz}}}
+  - {name: 🇺🇸_US_美国->🇮🇳_IN_印度, server: quiz.int.vidio.com, port: 2052, type: vmess, uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8, sni: in3.wish.ml, alterId: 0, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /, headers: {Host: in3.wish.ml}}}
+
+proxy-groups:
+  - name: sshkit-generator
+    type: load-balance
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+    strategy: consistent-hashing
+    proxies:
+      - 🇺🇸_US_美国
+      - 🇺🇸_US_美国->🇮🇳_IN_印度
+
+rules:
+ - MATCH,sshkit-generator
