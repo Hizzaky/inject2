@@ -37,7 +37,7 @@ experimental:
   interface-name: en0
 
 proxies:
-  - {name: quiz.int.vidio.com, server: quiz.int.vidio.com, port: 443, udp: true, type: trojan, password: 23b08e47-2b2e-44c2-9985-7f0715fdeb7e, sni: , skip-cert-verify: true}
+  - {name: quiz.int.vidio.com, server: quiz.int.vidio.com, port: 443, udp: true, type: trojan, password: 23b08e47-2b2e-44c2-9985-7f0715fdeb7e, sni: trojan-sg01.globalssh.xyz, skip-cert-verify: true}
 
 proxy-groups:
   - name: sshkit-generator
