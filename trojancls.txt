@@ -50,3 +50,4 @@ proxy-groups:
 
 rules:
  - MATCH,sshkit-generator
+ 
