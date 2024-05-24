@@ -1,7 +1,7 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：21-05-2024 22:09:49
+# 创建时间：24-05-2024 18:57:27
 # 使用模版：V2RaySE 默认模版
 # 节点数量：1
 ####################################
@@ -85,7 +85,7 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"Trsg-globalssh_trojan_grpc","type":"trojan","server":"quiz.vidio.com","port":443,"udp":true,"password":"23b08e47-2b2e-44c2-9985-7f0715fdeb7e","sni":"trojan-sg01.globalssh.xyz","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"trojan-grpc"},"alpn":["h2"]}
+  - {"name":"Trsg-globalssh_trojan_grpc","type":"trojan","server":"quiz.int.vidio.com","port":443,"udp":true,"password":"23b08e47-2b2e-44c2-9985-7f0715fdeb7e","sni":"trojan-sg01.globalssh.xyz","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"trojan-grpc"},"alpn":["h2"]}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
