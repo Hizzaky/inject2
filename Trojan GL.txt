@@ -85,7 +85,7 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"Trojan+GL","type":"trojan","server":"quiz.int.vidio.com","port":443,"udp":true,"password":"af57fd69-75e0-478c-8223-14e4cc9a18a0","sni":"trojan-sg01.globalssh.xyz","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"trojan-grpc"},"alpn":["h2"]}
+  - {"name":"Trojan+GL","type":"trojan","server":"quiz.int.vidio.com","port":443,"udp":true,"password":"60aea0ea-7f41-444d-ab69-dd65fc5c65e4","sni":"trojan-sg01.globalssh.xyz","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"trojan-grpc"},"alpn":["h2"]}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
