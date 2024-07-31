@@ -37,7 +37,7 @@ experimental:
   interface-name: en0
 
 proxies:
-  - {name: Vmess GL, server: quiz.vidio.com, port: 443, type: vmess, uuid: 6fe4ca51-ff3e-4a30-86e3-b7bd8c81f9d1, sni: vmess-sg01.globalssh.xyz, alterId: 0, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /vmess-ws, headers: {Host: vmess-sg01.globalssh.xyz}}}
+  - {name: VmsCA, server: quiz.int.vidio.com, port: 80, type: vmess, uuid: 1b9e9c24-d9d0-43a5-acc3-77b910d58303, sni: vmess-ovh-ca01.globalssh.xyz, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /vmess-ws, headers: {Host: vmess-ovh-ca01.globalssh.xyz}}}
 
 proxy-groups:
   - name: sshkit-generator
@@ -46,7 +46,7 @@ proxy-groups:
     interval: 300
     strategy: consistent-hashing
     proxies:
-      - Vmess GL
+      - VmsCA
 
 rules:
  - MATCH,sshkit-generator
