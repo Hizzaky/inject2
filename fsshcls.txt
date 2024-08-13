@@ -37,7 +37,7 @@ experimental:
   interface-name: en0
 
 proxies:
-  - {name: ASIA+VMESS-WS(2024-05-21), server: quiz.int.vidio.com, port: 80, type: vmess, uuid: 9b679530-5924-11ef-b233-205c6d5f5d78, sni: asia1.fufo.org, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /vmws, headers: {Host: asia1.fufo.org}}}
+  - {name: ASIA VMESS-WS NTLS, server: quiz.int.vidio.com, port: 80, type: vmess, uuid: 9b679530-5924-11ef-b233-205c6d5f5d78, sni: asia1.fufo.org, alterId: 0, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /vmws, headers: {Host: asia1.fufo.org}}}
 
 proxy-groups:
   - name: sshkit-generator
@@ -46,7 +46,7 @@ proxy-groups:
     interval: 300
     strategy: consistent-hashing
     proxies:
-      - ASIA+VMESS-WS(2024-05-21)
+      - ASIA VMESS-WS NTLS
 
 rules:
  - MATCH,sshkit-generator
