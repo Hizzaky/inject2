@@ -86,7 +86,7 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"one.kelvinstrife.workers.dev","type":"vless","server":"quiz.int.vidio.com","port":80,"uuid":"b369722a-03bf-4a21-99fb-42f9e96df2ca","servername":"one.kelvinstrife.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"one.kelvinstrife.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"one.kelvinstrife.workers.dev","type":"vless","server":"quiz.int.vidio.com","port":80,"uuid":"004ff7a7-e2dd-4094-9ce5-e93434a2c46c","servername":"one.kelvinstrife.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"one.kelvinstrife.workers.dev"}},"client-fingerprint":"randomized"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
