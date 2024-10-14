@@ -37,7 +37,7 @@ experimental:
   interface-name: en0
 
 proxies:
-  - {name: VMS SG, server: quiz.int.vidio.com, port: 80, type: vmess, uuid: a58ce20f-03ee-4871-9e48-0637f356f5ee, sni: vmess-sg01.globalssh.xyz, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /vmess-ws, headers: {Host: vmess-sg01.globalssh.xyz}}}
+  - {name: VMS SG, server: quiz.int.vidio.com, port: 80, type: vmess, uuid: 0d2b97a6-d23b-4dda-9ec2-ebe01b61e0ca, sni: vmess-sg01.globalssh.xyz, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /vmess-ws, headers: {Host: vmess-sg01.globalssh.xyz}}}
 
 proxy-groups:
   - name: sshkit-generator
