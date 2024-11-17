@@ -1,6 +1,6 @@
 # 生成地址：v2rayse.com
 # 模版名称：defaultName
-# 生成时间：2024-09-22 19:50:44
+# 生成时间：2024-11-18 07:01:25
 # 不要随意改变关键字，否则会导致出错
 # acl4SSR规则
 # 去广告：支持
@@ -57,41 +57,58 @@ tun:
     - 8.8.4.4
     - 1.1.1.1
     - 1.0.0.1
-proxies: []
+proxies:
+  - name: uno.kelvinstrife.workers.dev
+    port: 80
+    server: quiz.int.vidio.com
+    type: vless
+    network: ws
+    udp: true
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: uno.kelvinstrife.workers.dev
+    uuid: f924ebde-0b72-4e91-90b4-8f2849d73ced
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - uno.kelvinstrife.workers.dev
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - DIRECT
+      - uno.kelvinstrife.workers.dev
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - uno.kelvinstrife.workers.dev
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - uno.kelvinstrife.workers.dev
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - uno.kelvinstrife.workers.dev
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - uno.kelvinstrife.workers.dev
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -114,6 +131,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - uno.kelvinstrife.workers.dev
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
