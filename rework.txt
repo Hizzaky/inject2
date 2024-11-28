@@ -1,6 +1,6 @@
 # 生成地址：v2rayse.com
 # 模版名称：defaultName
-# 生成时间：2024-11-28 15:50:53
+# 生成时间：2024-11-28 15:56:03
 # 不要随意改变关键字，否则会导致出错
 # acl4SSR规则
 # 去广告：支持
@@ -59,11 +59,10 @@ tun:
     - 1.0.0.1
 proxies:
   - name: rework.anukvpn.biz.id
-    port: 443
+    port: 80
     server: staging.vidio.com
     type: vless
     network: ws
-    tls: true
     udp: true
     servername: rework.anukvpn.biz.id
     skip-cert-verify: true
