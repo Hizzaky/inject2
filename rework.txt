@@ -1,6 +1,6 @@
 # 生成地址：v2rayse.com
 # 模版名称：defaultName
-# 生成时间：2024-11-28 15:56:03
+# 生成时间：2024-11-18 07:01:25
 # 不要随意改变关键字，否则会导致出错
 # acl4SSR规则
 # 去广告：支持
@@ -58,59 +58,57 @@ tun:
     - 1.1.1.1
     - 1.0.0.1
 proxies:
-  - name: rework.anukvpn.biz.id
+  - name: uno.kelvinstrife.workers.dev
     port: 80
-    server: staging.vidio.com
+    server: quiz.int.vidio.com
     type: vless
     network: ws
     udp: true
-    servername: rework.anukvpn.biz.id
     skip-cert-verify: true
     ws-opts:
       path: /?ed=2048
       headers:
         host: rework.anukvpn.biz.id
     uuid: d3cc2989-ac17-48b3-bf3d-193d0186a24f
-    client-fingerprint: randomized
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - rework.anukvpn.biz.id
+      - uno.kelvinstrife.workers.dev
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - rework.anukvpn.biz.id
+      - uno.kelvinstrife.workers.dev
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - rework.anukvpn.biz.id
+      - uno.kelvinstrife.workers.dev
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - rework.anukvpn.biz.id
+      - uno.kelvinstrife.workers.dev
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - rework.anukvpn.biz.id
+      - uno.kelvinstrife.workers.dev
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - rework.anukvpn.biz.id
+      - uno.kelvinstrife.workers.dev
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -133,7 +131,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - rework.anukvpn.biz.id
+      - uno.kelvinstrife.workers.dev
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
