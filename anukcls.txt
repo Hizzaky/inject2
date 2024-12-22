@@ -65,13 +65,13 @@ proxies:
     network: ws
     tls: true
     udp: true
-    servername: vpn.anukvpn.biz.id
+    servername: edtunnel.anukvpn.biz.id
     skip-cert-verify: true
     ws-opts:
       path: /?ed=2048
       headers:
-        host: vpn.anukvpn.biz.id
-    uuid: 9fa89c47-f7c0-43f2-a337-f4d2874c6282
+        host: edtunnel.anukvpn.biz.id
+    uuid: 10e314db-2cfc-4497-a1f1-65e91805c50a
     client-fingerprint: randomized
 proxy-groups:
   - name: 🚀 节点选择
