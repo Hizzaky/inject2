@@ -65,13 +65,13 @@ proxies:
     network: ws
     tls: true
     udp: true
-    servername: edtunnel2-5dz.pages.dev
+    servername: free-d9s.pages.dev
     skip-cert-verify: true
     ws-opts:
       path: /?ed=2048
       headers:
-        host: edtunnel2-5dz.pages.dev
-    uuid: b192cc1c-b2c0-49da-a28f-0fc18a8ca5b4
+        host: free-d9s.pages.dev
+    uuid: 0ecfa3d1-fcb0-4b18-835f-5d8b1fcc3702
     client-fingerprint: randomized
 proxy-groups:
   - name: 🚀 节点选择
