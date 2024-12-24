@@ -71,7 +71,7 @@ proxies:
       path: /?ed=2048
       headers:
         host: global.kloningstrife002.workers.dev
-    uuid: 3904e1d4-e916-456d-bc8d-e60b59b1926f
+    uuid: 1d0a0269-3b59-48a3-9648-62191b008ee7
     client-fingerprint: randomized
 proxy-groups:
   - name: 🚀 节点选择
