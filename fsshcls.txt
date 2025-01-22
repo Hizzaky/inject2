@@ -37,7 +37,7 @@ experimental:
   interface-name: en0
 
 proxies:
-  - {name: FastSSH, server: quiz.vidio.com, port: 80, type: vmess, uuid: 7eacd4f0-8885-11ef-b536-205c6d5f5d78, sni: asia1.fufo.org, alterId: 0, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /vmws, headers: {Host: asia1.fufo.org}}}
+  - {name: FastSSH, server: quiz.vidio.com, port: 80, type: vmess, uuid: 6e170e9c-37ab-4172-b152-270dc6e50d18, sni: vmess-us02.gproxy.gratis, alterId: 0, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /vmws, headers: {Host: vmess-us02.gproxy.gratis}}}
 
 proxy-groups:
   - name: sshkit-generator
