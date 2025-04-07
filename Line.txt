@@ -60,7 +60,7 @@ tun:
 proxies:
   - name: edtunnel2
     port: 443
-    server: quiz.int.vidio.com
+    server: df.game.naver.com
     type: vless
     network: ws
     tls: true
