@@ -60,7 +60,7 @@ tun:
 proxies:
   - name: edtunnel2
     port: 443
-    server: investor.fb.com
+    server: www.instagram.com
     type: vless
     network: ws
     tls: true
