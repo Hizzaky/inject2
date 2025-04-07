@@ -60,7 +60,7 @@ tun:
 proxies:
   - name: edtunnel2
     port: 443
-    server: account.pmang.game.naver.com
+    server: investor.fb.com
     type: vless
     network: ws
     tls: true
