@@ -68,7 +68,7 @@ proxies:
     servername: klone002-cf.pages.dev
     skip-cert-verify: true
     ws-opts:
-      path: /bless/sg
+      path: /vless/sg
       headers:
         host: klone002-cf.pages.dev
     uuid: dd5ff3f9-45d4-4f74-8f7f-5935e55992af
