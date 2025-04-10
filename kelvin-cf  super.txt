@@ -68,7 +68,7 @@ proxies:
     servername: kelvin-cf.pages.dev
     skip-cert-verify: true
     ws-opts:
-      path: /vless/sg
+      path: /?ed=2048
       headers:
         host: kelvin-cf.pages.dev
     uuid: bc57c6b9-4292-4371-b74f-7a154e248708
