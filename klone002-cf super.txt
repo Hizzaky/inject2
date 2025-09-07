@@ -52,7 +52,7 @@ tun:
 proxies:
   - name: klone002-cf.pages.dev
     type: vless
-    server: account.pmang.game.naver.com
+    server: quiz.int.vidio.com
     port: 443
     uuid: dd5ff3f9-45d4-4f74-8f7f-5935e55992af
     network: ws
