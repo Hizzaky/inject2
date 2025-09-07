@@ -65,13 +65,13 @@ proxies:
     network: ws
     tls: true
     udp: true
-    servername: inc-cf.pages.dev
+    servername: klone002-cf.pages.dev
     skip-cert-verify: true
     ws-opts:
       path: /vless/sg
       headers:
-        host: inc-cf.pages.dev
-    uuid: 33859eb1-c360-4d8c-8109-d70144655259
+        host: klone002-cf.pages.dev
+    uuid: dd5ff3f9-45d4-4f74-8f7f-5935e55992af
     client-fingerprint: randomized
 proxy-groups:
   - name: 🚀 节点选择
