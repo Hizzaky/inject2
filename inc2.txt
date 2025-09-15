@@ -54,15 +54,15 @@ proxies:
     name: INC
     server: quiz.int.vidio.com
     port: 443
-    uuid: 33859eb1-c360-4d8c-8109-d70144655259
+    uuid: 826f524a-cea1-4e44-9b49-3381d13b7593
     network: ws
-    servername: inc-cf.pages.dev
+    servername: fk31lndm4w8uj0yp1drwltdtdko6y-cu.pages.dev
     tls: true
     encryption: none
     ws-opts:
-      path: /sg
+      path: /recVqkVwqqw7LmBd
       headers:
-        Host: inc-cf.pages.dev
+        Host: fk31lndm4w8uj0yp1drwltdtdko6y-cu.pages.dev
     client-fingerprint: randomized
 proxy-groups:
   - name: 🚀 节点选择
