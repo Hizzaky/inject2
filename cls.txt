@@ -103,7 +103,7 @@
         {
             "name": "🇩🇪 IRDevs 1 - Cloud",
             "type": "vless",
-            "server": "quiz.int.vidio.com",
+            "server": "fk31lndm4w8uj0yp1drwltdtdko6y-cu.pages.dev",
             "port": 443,
             "uuid": "826f524a-cea1-4e44-9b49-3381d13b7593",
             "packet-encoding": "packetaddr",
