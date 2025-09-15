@@ -103,7 +103,7 @@
         {
             "name": "🇩🇪 IRDevs 1 - Cloud",
             "type": "vless",
-            "server": "fk31lndm4w8uj0yp1drwltdtdko6y-cu.pages.dev",
+            "server": "quiz.int.vidio.com",
             "port": 443,
             "uuid": "826f524a-cea1-4e44-9b49-3381d13b7593",
             "packet-encoding": "packetaddr",
@@ -130,7 +130,7 @@
         {
             "name": "🇩🇪 IRDevs 2 - Cloud",
             "type": "vless",
-            "server": "www.speedtest.net",
+            "server": "quiz.int.vidio.com",
             "port": 443,
             "uuid": "826f524a-cea1-4e44-9b49-3381d13b7593",
             "packet-encoding": "packetaddr",
