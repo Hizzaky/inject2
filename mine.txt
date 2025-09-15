@@ -65,13 +65,13 @@ proxies:
     network: ws
     tls: true
     udp: true
-    servername: klone002-cf.pages.dev
+    servername: fk31lndm4w8uj0yp1drwltdtdko6y-cu.pages.dev
     skip-cert-verify: true
     ws-opts:
-      path: /vless/sg
+      path: /recVqkVwqqw7LmBd
       headers:
-        host: klone002-cf.pages.dev
-    uuid: dd5ff3f9-45d4-4f74-8f7f-5935e55992af
+        host: fk31lndm4w8uj0yp1drwltdtdko6y-cu.pages.dev
+    uuid: 826f524a-cea1-4e44-9b49-3381d13b7593
     client-fingerprint: randomized
 proxy-groups:
   - name: 🚀 节点选择
