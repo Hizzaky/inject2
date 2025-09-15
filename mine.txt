@@ -63,7 +63,6 @@ proxies:
       path: /?ed=2048
       headers:
         Host: sg.kloningstrife002.workers.dev
-    client-fingerprint: randomized
 proxy-groups:
   - name: 🚀 节点选择
     type: select
