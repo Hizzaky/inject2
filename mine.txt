@@ -54,15 +54,15 @@ proxies:
     name: INC
     server: quiz.int.vidio.com
     port: 443
-    uuid: 6a65e58b-9f1e-4d8d-a0aa-2f7c558623ca
+    uuid: 2793e55d-e703-4755-a74f-48be2108657d
     network: ws
-    servername: sg.kloningstrife002.workers.dev
+    servername: cmliu-edgetunnel.pages.dev
     tls: true
     encryption: none
     ws-opts:
       path: /vless/sg
       headers:
-        Host: sg.kloningstrife002.workers.dev
+        Host: cmliu-edgetunnel.pages.dev
     client-fingerprint: randomized
 proxy-groups:
   - name: 🚀 节点选择
