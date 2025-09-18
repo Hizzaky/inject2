@@ -1,5 +1,5 @@
 # 模版名称：ACL4SSR_Mini.ini
-# 配置生成日期：2025-09-12 10:09:57
+# 配置生成日期：2025-09-18 13:10:45
 
 mixed-port: 7890
 allow-lan: false
@@ -51,18 +51,18 @@ tun:
 
 proxies:
   - type: vless
-    name: INC
+    name: klone
     server: quiz.int.vidio.com
     port: 443
-    uuid: dd5ff3f9-45d4-4f74-8f7f-5935e55992af
+    uuid: 3d49d5ff-c450-4efb-98e9-e5e1217da6fd
     network: ws
-    servername: klone002-cf.pages.dev
+    servername: klone2-cf.pages.dev
     tls: true
     encryption: none
     ws-opts:
-      path: /sg
+      path: /?ed=2560
       headers:
-        Host: klone002-cf.pages.dev
+        Host: klone2-cf.pages.dev
     client-fingerprint: randomized
 proxy-groups:
   - name: 🚀 节点选择
@@ -70,12 +70,12 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - INC
+      - klone
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     proxies:
-      - INC
+      - klone
     interval: 300
     tolerance: 5000
   - name: 🎯 全球直连
@@ -95,7 +95,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - INC
+      - klone
 rules:
 # 本地/局域网地址
 # 参考：https://en.wikipedia.org/wiki/Reserved_IP_addresses
