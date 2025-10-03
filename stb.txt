@@ -141,7 +141,6 @@ proxy-groups:
     - REJECT
     - BEST-PING
   url: http://www.gstatic.com/generate_204
-  interval: 120
 
 - name: BEST-PING
   type: url-test
