@@ -1,5 +1,5 @@
 # 模版名称：ACL4SSR_Mini.ini
-# 配置生成日期：2025-09-18 13:00:00
+# 配置生成日期：2025-10-03 10:57:57
 
 mixed-port: 7890
 allow-lan: false
@@ -51,18 +51,18 @@ tun:
 
 proxies:
   - type: vless
-    name: stb
-    server: quiz.int.vidio.com
+    name: Biz Lite STB
+    server: ava.game.naver.com
     port: 443
     uuid: b607627a-c05d-41eb-a914-6f8806b8a0db
     network: ws
-    servername: stb2.pages.dev
+    servername: ava.game.naver.com.blackcloudstb.biz.id
     tls: true
     encryption: none
     ws-opts:
       path: /?ed=2560
       headers:
-        Host: stb2.pages.dev
+        Host: ava.game.naver.com.blackcloudstb.biz.id
     client-fingerprint: randomized
 proxy-groups:
   - name: 🚀 节点选择
@@ -70,12 +70,12 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - stb
+      - Biz Lite STB
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     proxies:
-      - stb
+      - Biz Lite STB
     interval: 300
     tolerance: 5000
   - name: 🎯 全球直连
@@ -95,7 +95,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - stb
+      - Biz Lite STB
 rules:
 # 本地/局域网地址
 # 参考：https://en.wikipedia.org/wiki/Reserved_IP_addresses
