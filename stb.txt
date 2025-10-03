@@ -1,145 +1,54 @@
+port: 7890
+socks-port: 7891
+redir-port: 7892
+mixed-port: 7893
+tproxy-port: 7895
+ipv6: false
+mode: rule
+log-level: silent
+allow-lan: true
+external-controller: 0.0.0.0:9090
+secret: ''
+bind-address: '*'
+unified-delay: true
+profile:
+  store-selected: true
+dns:
+  enable: true
+  ipv6: false
+  enhanced-mode: fake-ip
+  listen: 127.0.0.1:7874
+  nameserver:
+    - 1.1.1.1
+    - 1.0.0.1
+  fallback:
+    - https://cloudflare-dns.com/dns-query
+    - https://dns.google/dns-query
+  default-nameserver:
+    - 8.8.8.8
+    - 8.8.4.4
 proxies:
-  - name: Biz%20Lite%20STB
+  - name: biz-lite-stb
     server: ava.game.naver.com
     port: 443
     type: vless
-    udp: true
-    skip-cert-verify: true
     uuid: b607627a-c05d-41eb-a914-6f8806b8a0db
+    alterId: 0
     cipher: auto
     tls: true
+    skip-cert-verify: true
     servername: ava.game.naver.com.blackcloudstb.biz.id
     network: ws
     ws-opts:
       path: /?ed=2560
       headers:
         Host: ava.game.naver.com.blackcloudstb.biz.id
+    udp: true
 proxy-groups:
-  - name: Internet
+  - name: BIZ-LITE-STB
     type: select
-    disable-udp: false
     proxies:
-      - URLTest
-      - Balancer
-      - FallbackX
+      - biz-lite-stb
       - DIRECT
-  - name: URLTest
-    type: url-test
-    proxies: null
-    url: http://www.gstatic.com/generate_204
-    interval: 10
-  - name: Balancer
-    type: load-balance
-    strategy: consistent-hashing
-    disable-udp: false
-    proxies: null
-    url: http://www.gstatic.com/generate_204
-    interval: '300'
-  - name: FallbackX
-    type: fallback
-    lazy: true
-    disable-udp: false
-    proxies: null
-    url: http://www.gstatic.com/generate_204
-    interval: '30'
-  - name: Game
-    type: select
-    disable-udp: false
-    proxies:
-      - DIRECT
-      - Biz%20Lite%20STB
-  - name: BlockHost
-    type: select
-    disable-udp: false
-    proxies:
-      - DIRECT
-      - REJECT
-      - Biz%20Lite%20STB
-redir-port: 7892
-port: 7890
-socks-port: 7891
-mixed-port: 7893
-mode: rule
-log-level: silent
-allow-lan: true
-unified-delay: true
-external-controller: 0.0.0.0:9090
-secret: telekulo
-bind-address: 0.0.0.0
-external-ui: ui
-dns:
-  enable: true
-  ipv6: false
-  enhanced-mode: redir-host
-  listen: 127.0.0.1:5053
-  nameserver:
-    - 1.1.1.1
-    - 9.9.9.10
-  fallback:
-    - https://dns10.quad9.net/dns-query
-    - https://1.1.1.1/dns-query
-    - tls://9.9.9.10:853
-  fallback-filter:
-    geoip: false
-    ipcidr:
-      - 0.0.0.0/8
-      - 10.0.0.0/8
-      - 100.64.0.0/10
-      - 127.0.0.0/8
-      - 169.254.0.0/16
-      - 172.16.0.0/12
-      - 192.0.0.0/24
-      - 192.0.2.0/24
-      - 192.88.99.0/24
-      - 192.168.0.0/16
-      - 198.18.0.0/15
-      - 198.51.100.0/24
-      - 203.0.113.0/24
-      - 224.0.0.0/4
-      - 240.0.0.0/4
-      - 255.255.255.255/32
-ipv6: false
-profile:
-  store-selected: true
 rules:
-  - RULE-SET,Game,Game
-  - RULE-SET,Bank,Game
-  - RULE-SET,Adaway,BlockHost
-  - RULE-SET,Apbindo,BlockHost
-  - IP-CIDR,100.0.0.0/8,DIRECT
-  - MATCH,Internet
-rule-providers:
-  Bank:
-    type: http
-    behavior: classical
-    interval: 86400
-    url: https://netqcore.vercel.app/prox/rules/bank.yaml
-    path: ./rule_provider/bank.yaml
-  Game:
-    type: http
-    behavior: classical
-    url: https://netqcore.vercel.app/prox/rules/game.yaml
-    interval: 86400
-    path: ./rule_provider/game.yaml
-  Apbindo:
-    type: http
-    behavior: classical
-    path: ./rule_provider/apbindo.yaml
-    url: https://raw.githubusercontent.com/hillz2/openclash_adblock/refs/heads/main/abpindo.yaml
-    interval: 86400
-  Adaway:
-    type: http
-    behavior: classical
-    interval: 86400
-    url: https://raw.githubusercontent.com/hillz2/openclash_adblock/refs/heads/main/adaway.yaml
-    path: ./rule_provider/adaway.yaml
-tproxy-port: 7895
-tun:
-  enable: true
-  stack: system
-  dns-hijack:
-    - any:53
-    - tcp://any:53
-  auto-route: true
-  auto-redirect: true
-  auto-detect-interface: true
+  - MATCH,BIZ-LITE-STB
