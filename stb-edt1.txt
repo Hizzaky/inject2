@@ -1,5 +1,5 @@
 # 模版名称：ACL4SSR_Mini.ini
-# 配置生成日期：2025-10-11 18:15:28
+# 配置生成日期：2025-10-11 18:22:32
 
 mixed-port: 7890
 allow-lan: false
@@ -64,6 +64,20 @@ proxies:
       headers:
         Host: store.linefriends.com.blackcloudstb.biz.id
     client-fingerprint: randomized
+  - type: vless
+    name: stb-2
+    server: quiz.int.vidio.com
+    port: 443
+    uuid: b607627a-c05d-41eb-a914-6f8806b8a0db
+    network: ws
+    servername: ava.game.naver.com.blackcloudstb.biz.id
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: ava.game.naver.com.blackcloudstb.biz.id
+    client-fingerprint: randomized
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -71,11 +85,13 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - stb-1
+      - stb-2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     proxies:
       - stb-1
+      - stb-2
     interval: 300
     tolerance: 5000
   - name: 🎯 全球直连
@@ -96,6 +112,7 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - stb-1
+      - stb-2
 rules:
 # 本地/局域网地址
 # 参考：https://en.wikipedia.org/wiki/Reserved_IP_addresses
