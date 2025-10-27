@@ -52,7 +52,7 @@ tun:
 proxies:
   - type: vless
     name: stb-1
-    server: ava.game.naver.com
+    server: 104.17.3.81
     port: 443
     uuid: 243a0d2e-1fd0-4676-965d-01cfc63457d6
     network: ws
