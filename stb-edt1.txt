@@ -56,13 +56,13 @@ proxies:
     port: 443
     uuid: 243a0d2e-1fd0-4676-965d-01cfc63457d6
     network: ws
-    servername: store.linefriends.com.blackcloudstb.biz.id
+    servername: 104.17.3.81.com.blackcloudstb.biz.id
     tls: true
     encryption: none
     ws-opts:
       path: /?ed=2560
       headers:
-        Host: store.linefriends.com.blackcloudstb.biz.id
+        Host: 104.17.3.81.com.blackcloudstb.biz.id
     client-fingerprint: randomized
   - type: vless
     name: stb-2
