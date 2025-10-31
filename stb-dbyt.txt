@@ -805,7 +805,6 @@ rules:
 # PPTV、PPLive
 # QQ Live
 # Youku & Tudou
-# Youtube
 # Others ads in Video apps
 # Ads in Video apps end 上面都是 ********************
 # 常用网站广告
@@ -1709,12 +1708,8 @@ rules:
   - DOMAIN-SUFFIX,azabu-u.ac.jp,🛑 全球拦截
   - DOMAIN-SUFFIX,couchcoaster.jp,🛑 全球拦截
   - DOMAIN-SUFFIX,delivery.dmkt-sp.jp,🛑 全球拦截
-  - DOMAIN-SUFFIX,ehg-youtube.hitbox.com,🛑 全球拦截
   - DOMAIN-SUFFIX,nichibenren.or.jp,🛑 全球拦截
   - DOMAIN-SUFFIX,nicorette.co.kr,🛑 全球拦截
-  - DOMAIN-SUFFIX,ssl-youtube.2cnt.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,youtube.112.2o7.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,youtube.2cnt.net,🛑 全球拦截
   - DOMAIN-SUFFIX,acsystem.wasu.tv,🛑 全球拦截
   - DOMAIN-SUFFIX,ads.cdn.tvb.com,🛑 全球拦截
   - DOMAIN-SUFFIX,ads.wasu.tv,🛑 全球拦截
@@ -2336,28 +2331,11 @@ rules:
   - DOMAIN-SUFFIX,viu.com,🚀 节点选择
   - DOMAIN-SUFFIX,viu.now.com,🚀 节点选择
   - DOMAIN-SUFFIX,viu.tv,🚀 节点选择
-#   - USER-AGENT,*youtube*,🚀 节点选择
-#   - USER-AGENT,YouTube*,🚀 节点选择
-#   - USER-AGENT,com.google.ios.youtube*,🚀 节点选择
-  - DOMAIN-KEYWORD,youtube,🚀 节点选择
-  - DOMAIN,youtubei.googleapis.com,🚀 节点选择
   - DOMAIN,yt3.ggpht.com,🚀 节点选择
   - DOMAIN-SUFFIX,googlevideo.com,🚀 节点选择
   - DOMAIN-SUFFIX,gvt2.com,🚀 节点选择
-  - DOMAIN-SUFFIX,withyoutube.com,🚀 节点选择
-  - DOMAIN-SUFFIX,youtu.be,🚀 节点选择
-  - DOMAIN-SUFFIX,youtube-nocookie.com,🚀 节点选择
-  - DOMAIN-SUFFIX,youtube.com,🚀 节点选择
-  - DOMAIN-SUFFIX,youtubeeducation.com,🚀 节点选择
-  - DOMAIN-SUFFIX,youtubegaming.com,🚀 节点选择
-  - DOMAIN-SUFFIX,youtubekids.com,🚀 节点选择
   - DOMAIN-SUFFIX,yt.be,🚀 节点选择
   - DOMAIN-SUFFIX,ytimg.com,🚀 节点选择
-#   - USER-AGENT,*YouTubeMusic*,🚀 节点选择
-#   - USER-AGENT,*com.google.ios.youtubemusic*,🚀 节点选择
-#   - USER-AGENT,YouTubeMusic*,🚀 节点选择
-#   - USER-AGENT,com.google.ios.youtubemusic*,🚀 节点选择
-  - DOMAIN,music.youtube.com,🚀 节点选择
 # 代理列表
 # MyList && Other
 # 国外域名
@@ -2443,7 +2421,6 @@ rules:
   - DOMAIN-KEYWORD,telegram,🚀 节点选择
   - DOMAIN-KEYWORD,twitter,🚀 节点选择
   - DOMAIN-KEYWORD,whatsapp,🚀 节点选择
-  - DOMAIN-KEYWORD,youtube,🚀 节点选择
   - DOMAIN-SUFFIX,4sqi.net,🚀 节点选择
   - DOMAIN-SUFFIX,a248.e.akamai.net,🚀 节点选择
   - DOMAIN-SUFFIX,adobedtm.com,🚀 节点选择
@@ -2648,9 +2625,6 @@ rules:
   - DOMAIN-SUFFIX,gvt2.com,🚀 节点选择
   - DOMAIN-SUFFIX,gvt3.com,🚀 节点选择
   - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🚀 节点选择
-  - DOMAIN-SUFFIX,youtu.be,🚀 节点选择
-  - DOMAIN-SUFFIX,youtube-nocookie.com,🚀 节点选择
-  - DOMAIN-SUFFIX,youtube.com,🚀 节点选择
   - DOMAIN-SUFFIX,yt.be,🚀 节点选择
   - DOMAIN-SUFFIX,ytimg.com,🚀 节点选择
   - IP-CIDR,74.125.0.0/16,🚀 节点选择,no-resolve
