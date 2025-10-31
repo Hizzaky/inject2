@@ -60,7 +60,7 @@ proxies:
     tls: true
     encryption: none
     ws-opts:
-      path: /?ed=2560
+      path: /vls/sg
       headers:
         Host: 104.17.3.81
     client-fingerprint: randomized
@@ -70,13 +70,13 @@ proxies:
     port: 443
     uuid: b607627a-c05d-41eb-a914-6f8806b8a0db
     network: ws
-    servername: ava.game.naver.com.blackcloudstb.biz.id
+    servername: support.zoom.us.blackcloudstb.biz.id
     tls: true
     encryption: none
     ws-opts:
       path: /?ed=2560
       headers:
-        Host: ava.game.naver.com.blackcloudstb.biz.id
+        Host: support.zoom.us.blackcloudstb.biz.id
     client-fingerprint: randomized
 proxy-groups:
   - name: 🚀 节点选择

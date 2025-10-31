@@ -64,13 +64,13 @@ proxies:
     port: 443
     uuid: 243a0d2e-1fd0-4676-965d-01cfc63457d6
     network: ws
-    servername: 104.17.3.81.stb-edtunnel1-cf.pages.dev
+    servername: support.zoom.us.stb-edtunnel1-cf.pages.dev
     tls: true
     encryption: none
     ws-opts:
       path: /?ed=2048
       headers:
-        Host: 104.17.3.81.stb-edtunnel1-cf.pages.dev
+        Host: support.zoom.us.stb-edtunnel1-cf.pages.dev
     client-fingerprint: randomized
 proxy-groups:
   - name: 🚀 节点选择
