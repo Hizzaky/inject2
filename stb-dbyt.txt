@@ -62,7 +62,7 @@ proxies:
     ws-opts:
       path: /vls/sg
       headers:
-        Host: 104.17.3.81
+        Host: support.zoom.us
     client-fingerprint: randomized
   - type: vless
     name: stb-2
@@ -70,13 +70,13 @@ proxies:
     port: 443
     uuid: b607627a-c05d-41eb-a914-6f8806b8a0db
     network: ws
-    servername: support.zoom.us.blackcloudstb.biz.id
+    servername: blackcloudstb.biz.id
     tls: true
     encryption: none
     ws-opts:
       path: /?ed=2560
       headers:
-        Host: support.zoom.us.blackcloudstb.biz.id
+        Host: blackcloudstb.biz.id
     client-fingerprint: randomized
 proxy-groups:
   - name: 🚀 节点选择

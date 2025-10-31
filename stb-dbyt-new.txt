@@ -60,7 +60,7 @@ tun:
 proxies:
   - type: vless
     name: stb-dbyt
-    server: 104.17.3.81
+    server: support.zoom.us
     port: 443
     uuid: 243a0d2e-1fd0-4676-965d-01cfc63457d6
     network: ws
