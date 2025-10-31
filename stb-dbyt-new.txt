@@ -64,13 +64,13 @@ proxies:
     port: 443
     uuid: 243a0d2e-1fd0-4676-965d-01cfc63457d6
     network: ws
-    servername: support.zoom.us.stb-edtunnel1-cf.pages.dev
+    servername: store.linefriends.com.blackcloudstb.biz.id
     tls: true
     encryption: none
     ws-opts:
       path: /?ed=2048
       headers:
-        Host: support.zoom.us.stb-edtunnel1-cf.pages.dev
+        Host: store.linefriends.com.blackcloudstb.biz.id
     client-fingerprint: randomized
 proxy-groups:
   - name: 🚀 节点选择
