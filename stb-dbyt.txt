@@ -56,17 +56,17 @@ proxies:
     port: 443
     uuid: 243a0d2e-1fd0-4676-965d-01cfc63457d6
     network: ws
-    servername: store.linefriends.com.blackcloudstb.biz.id
+    servername: anukvpn.my.id
     tls: true
     encryption: none
     ws-opts:
       path: /vls/sg
       headers:
-        Host: store.linefriends.com.blackcloudstb.biz.id
+        Host: anukvpn.my.id
     client-fingerprint: randomized
   - type: vless
     name: stb-2
-    server: store.linefriends.com.blackcloudstb.biz.id
+    server: anukvpn.my.id
     port: 443
     uuid: b607627a-c05d-41eb-a914-6f8806b8a0db
     network: ws
