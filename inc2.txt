@@ -1,5 +1,5 @@
 # 模版名称：ACL4SSR_Mini.ini
-# 配置生成日期：2025-09-12 10:09:57
+# 配置生成日期：2025-10-11 18:22:32
 
 mixed-port: 7890
 allow-lan: false
@@ -51,18 +51,32 @@ tun:
 
 proxies:
   - type: vless
-    name: INC
-    server: quiz.int.vidio.com
+    name: stb-1
+    server: 104.17.3.81
     port: 443
-    uuid: 826f524a-cea1-4e44-9b49-3381d13b7593
+    uuid: 243a0d2e-1fd0-4676-965d-01cfc63457d6
     network: ws
-    servername: fk31lndm4w8uj0yp1drwltdtdko6y-cu.pages.dev
+    servername: anukvpn.my.id
     tls: true
     encryption: none
     ws-opts:
-      path: /recVqkVwqqw7LmBd
+      path: /vls/sg
       headers:
-        Host: fk31lndm4w8uj0yp1drwltdtdko6y-cu.pages.dev
+        Host: anukvpn.my.id
+    client-fingerprint: randomized
+  - type: vless
+    name: stb-2
+    server: anukvpn.my.id
+    port: 443
+    uuid: b607627a-c05d-41eb-a914-6f8806b8a0db
+    network: ws
+    servername: blackcloudstb.biz.id
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: blackcloudstb.biz.id
     client-fingerprint: randomized
 proxy-groups:
   - name: 🚀 节点选择
@@ -70,12 +84,14 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - INC
+      - stb-1
+      - stb-2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     proxies:
-      - INC
+      - stb-1
+      - stb-2
     interval: 300
     tolerance: 5000
   - name: 🎯 全球直连
@@ -95,7 +111,8 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - INC
+      - stb-1
+      - stb-2
 rules:
 # 本地/局域网地址
 # 参考：https://en.wikipedia.org/wiki/Reserved_IP_addresses
@@ -788,7 +805,6 @@ rules:
 # PPTV、PPLive
 # QQ Live
 # Youku & Tudou
-# Youtube
 # Others ads in Video apps
 # Ads in Video apps end 上面都是 ********************
 # 常用网站广告
@@ -1692,12 +1708,8 @@ rules:
   - DOMAIN-SUFFIX,azabu-u.ac.jp,🛑 全球拦截
   - DOMAIN-SUFFIX,couchcoaster.jp,🛑 全球拦截
   - DOMAIN-SUFFIX,delivery.dmkt-sp.jp,🛑 全球拦截
-  - DOMAIN-SUFFIX,ehg-youtube.hitbox.com,🛑 全球拦截
   - DOMAIN-SUFFIX,nichibenren.or.jp,🛑 全球拦截
   - DOMAIN-SUFFIX,nicorette.co.kr,🛑 全球拦截
-  - DOMAIN-SUFFIX,ssl-youtube.2cnt.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,youtube.112.2o7.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,youtube.2cnt.net,🛑 全球拦截
   - DOMAIN-SUFFIX,acsystem.wasu.tv,🛑 全球拦截
   - DOMAIN-SUFFIX,ads.cdn.tvb.com,🛑 全球拦截
   - DOMAIN-SUFFIX,ads.wasu.tv,🛑 全球拦截
@@ -2319,28 +2331,11 @@ rules:
   - DOMAIN-SUFFIX,viu.com,🚀 节点选择
   - DOMAIN-SUFFIX,viu.now.com,🚀 节点选择
   - DOMAIN-SUFFIX,viu.tv,🚀 节点选择
-#   - USER-AGENT,*youtube*,🚀 节点选择
-#   - USER-AGENT,YouTube*,🚀 节点选择
-#   - USER-AGENT,com.google.ios.youtube*,🚀 节点选择
-  - DOMAIN-KEYWORD,youtube,🚀 节点选择
-  - DOMAIN,youtubei.googleapis.com,🚀 节点选择
   - DOMAIN,yt3.ggpht.com,🚀 节点选择
   - DOMAIN-SUFFIX,googlevideo.com,🚀 节点选择
   - DOMAIN-SUFFIX,gvt2.com,🚀 节点选择
-  - DOMAIN-SUFFIX,withyoutube.com,🚀 节点选择
-  - DOMAIN-SUFFIX,youtu.be,🚀 节点选择
-  - DOMAIN-SUFFIX,youtube-nocookie.com,🚀 节点选择
-  - DOMAIN-SUFFIX,youtube.com,🚀 节点选择
-  - DOMAIN-SUFFIX,youtubeeducation.com,🚀 节点选择
-  - DOMAIN-SUFFIX,youtubegaming.com,🚀 节点选择
-  - DOMAIN-SUFFIX,youtubekids.com,🚀 节点选择
   - DOMAIN-SUFFIX,yt.be,🚀 节点选择
   - DOMAIN-SUFFIX,ytimg.com,🚀 节点选择
-#   - USER-AGENT,*YouTubeMusic*,🚀 节点选择
-#   - USER-AGENT,*com.google.ios.youtubemusic*,🚀 节点选择
-#   - USER-AGENT,YouTubeMusic*,🚀 节点选择
-#   - USER-AGENT,com.google.ios.youtubemusic*,🚀 节点选择
-  - DOMAIN,music.youtube.com,🚀 节点选择
 # 代理列表
 # MyList && Other
 # 国外域名
@@ -2426,7 +2421,6 @@ rules:
   - DOMAIN-KEYWORD,telegram,🚀 节点选择
   - DOMAIN-KEYWORD,twitter,🚀 节点选择
   - DOMAIN-KEYWORD,whatsapp,🚀 节点选择
-  - DOMAIN-KEYWORD,youtube,🚀 节点选择
   - DOMAIN-SUFFIX,4sqi.net,🚀 节点选择
   - DOMAIN-SUFFIX,a248.e.akamai.net,🚀 节点选择
   - DOMAIN-SUFFIX,adobedtm.com,🚀 节点选择
@@ -2631,9 +2625,6 @@ rules:
   - DOMAIN-SUFFIX,gvt2.com,🚀 节点选择
   - DOMAIN-SUFFIX,gvt3.com,🚀 节点选择
   - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🚀 节点选择
-  - DOMAIN-SUFFIX,youtu.be,🚀 节点选择
-  - DOMAIN-SUFFIX,youtube-nocookie.com,🚀 节点选择
-  - DOMAIN-SUFFIX,youtube.com,🚀 节点选择
   - DOMAIN-SUFFIX,yt.be,🚀 节点选择
   - DOMAIN-SUFFIX,ytimg.com,🚀 节点选择
   - IP-CIDR,74.125.0.0/16,🚀 节点选择,no-resolve
