@@ -25,7 +25,103 @@ profile:
     store-selected: true
 proxies:
     - client-fingerprint: chrome
-      name: "\U0001F1EE\U0001F1E9 Amazon.com WS TLS [43.218.77.16]"
+      name: "\U0001F1F8\U0001F1EC Alibaba Cloud - SG WS TLS [47.74.254.191]"
+      network: ws
+      port: "443"
+      server: 104.17.3.81
+      servername: nautica-cff.kloningstrife002.workers.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: fc60147e-76b8-4bc5-b691-90b2da79e3d2
+      ws-opts:
+        headers:
+            Host: nautica-cff.kloningstrife002.workers.dev
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36
+        path: /47.74.254.191-8900
+      xudp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1F8\U0001F1EC Oracle Corporation WS TLS [129.150.58.86]"
+      network: ws
+      port: "443"
+      server: 104.17.3.81
+      servername: nautica-cff.kloningstrife002.workers.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: fc60147e-76b8-4bc5-b691-90b2da79e3d2
+      ws-opts:
+        headers:
+            Host: nautica-cff.kloningstrife002.workers.dev
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+        path: /129.150.58.86-57621
+      xudp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1F8\U0001F1EC Oracle Corporation WS TLS [146.235.18.248]"
+      network: ws
+      port: "443"
+      server: 104.17.3.81
+      servername: nautica-cff.kloningstrife002.workers.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: fc60147e-76b8-4bc5-b691-90b2da79e3d2
+      ws-opts:
+        headers:
+            Host: nautica-cff.kloningstrife002.workers.dev
+            User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3 Build/HUAWEIFIG-LX3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+        path: /146.235.18.248-45137
+      xudp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1F8\U0001F1EC Oracle Corporation WS TLS [138.2.89.238]"
+      network: ws
+      port: "443"
+      server: 104.17.3.81
+      servername: nautica-cff.kloningstrife002.workers.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: fc60147e-76b8-4bc5-b691-90b2da79e3d2
+      ws-opts:
+        headers:
+            Host: nautica-cff.kloningstrife002.workers.dev
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.162 Safari/537.36
+        path: /138.2.89.238-43254
+      xudp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1F8\U0001F1EC Oracle Svenska AB WS TLS [213.35.108.135]"
+      network: ws
+      port: "443"
+      server: 104.17.3.81
+      servername: nautica-cff.kloningstrife002.workers.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: fc60147e-76b8-4bc5-b691-90b2da79e3d2
+      ws-opts:
+        headers:
+            Host: nautica-cff.kloningstrife002.workers.dev
+            User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36
+        path: /213.35.108.135-12596
+      xudp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1F8\U0001F1EC DigitalOcean WS TLS [178.128.80.43]"
+      network: ws
+      port: "443"
+      server: 104.17.3.81
+      servername: nautica-cff.kloningstrife002.workers.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: fc60147e-76b8-4bc5-b691-90b2da79e3d2
+      ws-opts:
+        headers:
+            Host: nautica-cff.kloningstrife002.workers.dev
+            User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1713 Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
+        path: /178.128.80.43-443
+      xudp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1F8\U0001F1EC Greencloud LLC WS TLS [194.127.193.240]"
       network: ws
       port: "443"
       server: 104.17.3.81
@@ -38,10 +134,10 @@ proxies:
         headers:
             Host: nautica-cff.kloningstrife002.workers.dev
             User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
-        path: /43.218.77.16-1443
+        path: /194.127.193.240-50791
       xudp: true
     - client-fingerprint: chrome
-      name: "\U0001F1EE\U0001F1E9 Amazon.com WS TLS [43.218.77.16]-01"
+      name: "\U0001F1F8\U0001F1EC 1 Raffles Place WS TLS [161.117.249.114]"
       network: ws
       port: "443"
       server: 104.17.3.81
@@ -53,11 +149,11 @@ proxies:
       ws-opts:
         headers:
             Host: nautica-cff.kloningstrife002.workers.dev
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.63 Safari/537.36
-        path: /43.218.77.16-443
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+        path: /161.117.249.114-2025
       xudp: true
     - client-fingerprint: chrome
-      name: "\U0001F1EE\U0001F1E9 PT Pusat Media Indonesia WS TLS [103.6.207.108]"
+      name: "\U0001F1F8\U0001F1EC Greencloud LLC WS TLS [194.127.193.124]"
       network: ws
       port: "443"
       server: 104.17.3.81
@@ -69,8 +165,104 @@ proxies:
       ws-opts:
         headers:
             Host: nautica-cff.kloningstrife002.workers.dev
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
-        path: /103.6.207.108-8080
+            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+        path: /194.127.193.124-24467
+      xudp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1F8\U0001F1EC Oracle Corporation WS TLS [129.150.36.188]"
+      network: ws
+      port: "443"
+      server: 104.17.3.81
+      servername: nautica-cff.kloningstrife002.workers.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: fc60147e-76b8-4bc5-b691-90b2da79e3d2
+      ws-opts:
+        headers:
+            Host: nautica-cff.kloningstrife002.workers.dev
+            User-Agent: Mozilla/5.0 (Linux; Android 5.1; A37f Build/LMY47V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.93 Mobile Safari/537.36
+        path: /129.150.36.188-53435
+      xudp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1F8\U0001F1EC Oracle Corporation WS TLS [138.2.95.61]"
+      network: ws
+      port: "443"
+      server: 104.17.3.81
+      servername: nautica-cff.kloningstrife002.workers.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: fc60147e-76b8-4bc5-b691-90b2da79e3d2
+      ws-opts:
+        headers:
+            Host: nautica-cff.kloningstrife002.workers.dev
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+        path: /138.2.95.61-1111
+      xudp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1F8\U0001F1EC Oracle Svenska AB WS TLS [213.35.107.73]"
+      network: ws
+      port: "443"
+      server: 104.17.3.81
+      servername: nautica-cff.kloningstrife002.workers.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: fc60147e-76b8-4bc5-b691-90b2da79e3d2
+      ws-opts:
+        headers:
+            Host: nautica-cff.kloningstrife002.workers.dev
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36
+        path: /213.35.107.73-443
+      xudp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1F8\U0001F1EC Vultr Holdings WS TLS [45.32.100.46]"
+      network: ws
+      port: "443"
+      server: 104.17.3.81
+      servername: nautica-cff.kloningstrife002.workers.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: fc60147e-76b8-4bc5-b691-90b2da79e3d2
+      ws-opts:
+        headers:
+            Host: nautica-cff.kloningstrife002.workers.dev
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+        path: /45.32.100.46-13802
+      xudp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1F8\U0001F1EC Vultr Holdings WS TLS [45.76.183.217]"
+      network: ws
+      port: "443"
+      server: 104.17.3.81
+      servername: nautica-cff.kloningstrife002.workers.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: fc60147e-76b8-4bc5-b691-90b2da79e3d2
+      ws-opts:
+        headers:
+            Host: nautica-cff.kloningstrife002.workers.dev
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
+        path: /45.76.183.217-49292
+      xudp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1F8\U0001F1EC OVH Singapore PTE. LTD WS TLS [51.79.158.58]"
+      network: ws
+      port: "443"
+      server: 104.17.3.81
+      servername: nautica-cff.kloningstrife002.workers.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: fc60147e-76b8-4bc5-b691-90b2da79e3d2
+      ws-opts:
+        headers:
+            Host: nautica-cff.kloningstrife002.workers.dev
+            User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J500M Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+        path: /51.79.158.58-8443
       xudp: true
     - client-fingerprint: chrome
       name: Trojan UDP
@@ -95,16 +287,40 @@ proxy-groups:
     - interval: 300
       name: Url Test
       proxies:
-        - "\U0001F1EE\U0001F1E9 Amazon.com WS TLS [43.218.77.16]"
-        - "\U0001F1EE\U0001F1E9 Amazon.com WS TLS [43.218.77.16]-01"
-        - "\U0001F1EE\U0001F1E9 PT Pusat Media Indonesia WS TLS [103.6.207.108]"
+        - "\U0001F1F8\U0001F1EC Alibaba Cloud - SG WS TLS [47.74.254.191]"
+        - "\U0001F1F8\U0001F1EC Oracle Corporation WS TLS [129.150.58.86]"
+        - "\U0001F1F8\U0001F1EC Oracle Corporation WS TLS [146.235.18.248]"
+        - "\U0001F1F8\U0001F1EC Oracle Corporation WS TLS [138.2.89.238]"
+        - "\U0001F1F8\U0001F1EC Oracle Svenska AB WS TLS [213.35.108.135]"
+        - "\U0001F1F8\U0001F1EC DigitalOcean WS TLS [178.128.80.43]"
+        - "\U0001F1F8\U0001F1EC Greencloud LLC WS TLS [194.127.193.240]"
+        - "\U0001F1F8\U0001F1EC 1 Raffles Place WS TLS [161.117.249.114]"
+        - "\U0001F1F8\U0001F1EC Greencloud LLC WS TLS [194.127.193.124]"
+        - "\U0001F1F8\U0001F1EC Oracle Corporation WS TLS [129.150.36.188]"
+        - "\U0001F1F8\U0001F1EC Oracle Corporation WS TLS [138.2.95.61]"
+        - "\U0001F1F8\U0001F1EC Oracle Svenska AB WS TLS [213.35.107.73]"
+        - "\U0001F1F8\U0001F1EC Vultr Holdings WS TLS [45.32.100.46]"
+        - "\U0001F1F8\U0001F1EC Vultr Holdings WS TLS [45.76.183.217]"
+        - "\U0001F1F8\U0001F1EC OVH Singapore PTE. LTD WS TLS [51.79.158.58]"
       type: url-test
     - interval: 300
       name: Selector
       proxies:
-        - "\U0001F1EE\U0001F1E9 Amazon.com WS TLS [43.218.77.16]"
-        - "\U0001F1EE\U0001F1E9 Amazon.com WS TLS [43.218.77.16]-01"
-        - "\U0001F1EE\U0001F1E9 PT Pusat Media Indonesia WS TLS [103.6.207.108]"
+        - "\U0001F1F8\U0001F1EC Alibaba Cloud - SG WS TLS [47.74.254.191]"
+        - "\U0001F1F8\U0001F1EC Oracle Corporation WS TLS [129.150.58.86]"
+        - "\U0001F1F8\U0001F1EC Oracle Corporation WS TLS [146.235.18.248]"
+        - "\U0001F1F8\U0001F1EC Oracle Corporation WS TLS [138.2.89.238]"
+        - "\U0001F1F8\U0001F1EC Oracle Svenska AB WS TLS [213.35.108.135]"
+        - "\U0001F1F8\U0001F1EC DigitalOcean WS TLS [178.128.80.43]"
+        - "\U0001F1F8\U0001F1EC Greencloud LLC WS TLS [194.127.193.240]"
+        - "\U0001F1F8\U0001F1EC 1 Raffles Place WS TLS [161.117.249.114]"
+        - "\U0001F1F8\U0001F1EC Greencloud LLC WS TLS [194.127.193.124]"
+        - "\U0001F1F8\U0001F1EC Oracle Corporation WS TLS [129.150.36.188]"
+        - "\U0001F1F8\U0001F1EC Oracle Corporation WS TLS [138.2.95.61]"
+        - "\U0001F1F8\U0001F1EC Oracle Svenska AB WS TLS [213.35.107.73]"
+        - "\U0001F1F8\U0001F1EC Vultr Holdings WS TLS [45.32.100.46]"
+        - "\U0001F1F8\U0001F1EC Vultr Holdings WS TLS [45.76.183.217]"
+        - "\U0001F1F8\U0001F1EC OVH Singapore PTE. LTD WS TLS [51.79.158.58]"
       type: select
 redir-port: 7892
 rules:
