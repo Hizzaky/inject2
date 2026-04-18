@@ -1,4 +1,1 @@
-vless://fc60147e-76b8-4bc5-b691-90b2da79e3d2@104.17.3.81:443?encryption=none&type=ws&host=nautica-cff.kloningstrife002.workers.dev&security=tls&sni=nautica-cff.kloningstrife002.workers.dev&path=%2F43.218.77.16-1443#%F0%9F%87%AE%F0%9F%87%A9%20Amazon.com%20WS%20TLS%20[43.218.77.16]
-
-
-vless://fc60147e-76b8-4bc5-b691-90b2da79e3d2@104.17.3.81:443?encryption=none&type=ws&host=nautica-cff.kloningstrife002.workers.dev&security=tls&sni=nautica-cff.kloningstrife002.workers.dev&path=%2F43.218.77.16-1443#%F0%9F%87%AE%F0%9F%87%A9%20Amazon.com%20WS%20TLS%20[43.218.77.16]
+vless://fc60147e-76b8-4bc5-b691-90b2da79e3d2@104.17.3.81:443?encryption=none&type=ws&host=nautica-cff.kloningstrife002.workers.dev&security=tls&sni=nautica-cff.kloningstrife002.workers.dev&path=%2F36.95.152.58-12137#%F0%9F%87%AE%F0%9F%87%A9%20PT%20Telekomunikasi%20Indonesia%20WS%20TLS%20[36.95.152.58]
