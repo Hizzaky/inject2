@@ -224,13 +224,31 @@ proxy-groups:
       name: Url Test
       proxies:
         - "\U0001F1EE\U0001F1E9 PT Pusat Media Indonesia WS TLS [103.6.207.108]"
+        - "\U0001F1EE\U0001F1E9 Amazon.com WS TLS [43.218.77.16]"
+        - "\U0001F1EE\U0001F1E9 PT Telekomunikasi Indonesia WS TLS [36.95.152.58]"
         - "\U0001F1F8\U0001F1EC Alibaba Cloud - SG WS TLS [47.74.254.191]"
+        - "\U0001F1F8\U0001F1EC Oracle Corporation WS TLS [146.235.18.248]"
+        - "\U0001F1F8\U0001F1EC Oracle Svenska AB WS TLS [213.35.108.135]"
+        - "\U0001F1F8\U0001F1EC Cloudflare London WS TLS [138.2.74.219]"
+        - "\U0001F1F8\U0001F1EC Vultr Holdings WS TLS [45.76.183.217]"
+        - "\U0001F1F8\U0001F1EC Viewqwest Pte Ltd WS TLS [143.42.66.91]"
+        - "\U0001F1F8\U0001F1EC Oracle Public Cloud WS TLS [168.138.171.70]"
+        - "\U0001F1F8\U0001F1EC UCUL-SG WS TLS [164.52.2.98]"
       type: url-test
     - interval: 300
       name: Selector
       proxies:
         - "\U0001F1EE\U0001F1E9 PT Pusat Media Indonesia WS TLS [103.6.207.108]"
+        - "\U0001F1EE\U0001F1E9 Amazon.com WS TLS [43.218.77.16]"
+        - "\U0001F1EE\U0001F1E9 PT Telekomunikasi Indonesia WS TLS [36.95.152.58]"
         - "\U0001F1F8\U0001F1EC Alibaba Cloud - SG WS TLS [47.74.254.191]"
+        - "\U0001F1F8\U0001F1EC Oracle Corporation WS TLS [146.235.18.248]"
+        - "\U0001F1F8\U0001F1EC Oracle Svenska AB WS TLS [213.35.108.135]"
+        - "\U0001F1F8\U0001F1EC Cloudflare London WS TLS [138.2.74.219]"
+        - "\U0001F1F8\U0001F1EC Vultr Holdings WS TLS [45.76.183.217]"
+        - "\U0001F1F8\U0001F1EC Viewqwest Pte Ltd WS TLS [143.42.66.91]"
+        - "\U0001F1F8\U0001F1EC Oracle Public Cloud WS TLS [168.138.171.70]"
+        - "\U0001F1F8\U0001F1EC UCUL-SG WS TLS [164.52.2.98]"
       type: select
 redir-port: 7892
 rules:
